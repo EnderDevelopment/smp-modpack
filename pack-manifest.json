@@ -1,0 +1,152 @@
+{
+  "name": "Arcane Engineering",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": {
+    "name": "fabric",
+    "version": "0.16.10"
+  },
+  "format": "modrinth-project-catalog",
+  "description": "A Fabric 1.21.1 tech and magic modpack focused on factories, power, storage, mana, and exploration.",
+  "server": {
+    "ready": true,
+    "directory": "server",
+    "java": "21",
+    "memory": {
+      "recommended_minimum": "4G",
+      "recommended_maximum": "8G"
+    },
+    "required_files": [
+      "fabric-server-launch.jar",
+      "server.properties",
+      "eula.txt"
+    ],
+    "startup_scripts": [
+      "start-server.sh",
+      "start-server.bat"
+    ]
+  },
+  "categories": [
+    "technology",
+    "magic",
+    "automation",
+    "exploration",
+    "optimization"
+  ],
+  "mods": [
+    {
+      "name": "Fabric API",
+      "project": "fabric-api",
+      "kind": "required-library",
+      "url": "https://modrinth.com/mod/fabric-api"
+    },
+    {
+      "name": "Create",
+      "project": "create-fabric",
+      "kind": "technology",
+      "url": "https://modrinth.com/mod/create-fabric"
+    },
+    {
+      "name": "Modern Industrialization",
+      "project": "modern-industrialization",
+      "kind": "technology",
+      "url": "https://modrinth.com/mod/modern-industrialization"
+    },
+    {
+      "name": "Tech Reborn",
+      "project": "techreborn",
+      "kind": "technology",
+      "url": "https://modrinth.com/mod/techreborn"
+    },
+    {
+      "name": "Applied Energistics 2",
+      "project": "ae2",
+      "kind": "technology-storage",
+      "url": "https://modrinth.com/mod/ae2"
+    },
+    {
+      "name": "Tom's Simple Storage",
+      "project": "toms-storage",
+      "kind": "technology-storage",
+      "url": "https://modrinth.com/mod/toms-storage"
+    },
+    {
+      "name": "Powah! (Fabric)",
+      "project": "powah-rearchitected",
+      "kind": "technology-energy",
+      "url": "https://modrinth.com/mod/powah-rearchitected"
+    },
+    {
+      "name": "Botania",
+      "project": "botania",
+      "kind": "magic",
+      "url": "https://modrinth.com/mod/botania"
+    },
+    {
+      "name": "Spectrum",
+      "project": "spectrum",
+      "kind": "magic",
+      "url": "https://modrinth.com/mod/spectrum"
+    },
+    {
+      "name": "Bewitchment",
+      "project": "bewitchment",
+      "kind": "magic",
+      "url": "https://modrinth.com/mod/bewitchment"
+    },
+    {
+      "name": "Terralith",
+      "project": "terralith",
+      "kind": "world-generation",
+      "url": "https://modrinth.com/mod/terralith"
+    },
+    {
+      "name": "BetterNether",
+      "project": "betternether",
+      "kind": "world-generation",
+      "url": "https://modrinth.com/mod/betternether"
+    },
+    {
+      "name": "BetterEnd",
+      "project": "betterend",
+      "kind": "world-generation",
+      "url": "https://modrinth.com/mod/betterend"
+    },
+    {
+      "name": "REI",
+      "project": "roughly-enough-items",
+      "kind": "utility",
+      "url": "https://modrinth.com/mod/rei"
+    },
+    {
+      "name": "Jade",
+      "project": "jade",
+      "kind": "utility",
+      "url": "https://modrinth.com/mod/jade"
+    },
+    {
+      "name": "Xaero's Minimap",
+      "project": "xaeros-minimap",
+      "kind": "utility",
+      "url": "https://modrinth.com/mod/xaeros-minimap"
+    },
+    {
+      "name": "FerriteCore",
+      "project": "ferrite-core",
+      "kind": "optimization",
+      "url": "https://modrinth.com/mod/ferrite-core"
+    },
+    {
+      "name": "Lithium",
+      "project": "lithium",
+      "kind": "optimization",
+      "url": "https://modrinth.com/mod/lithium"
+    },
+    {
+      "name": "Sodium",
+      "project": "sodium",
+      "kind": "optimization",
+      "url": "https://modrinth.com/mod/sodium"
+    }
+  ]
+}
